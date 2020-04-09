@@ -1,0 +1,7 @@
+﻿{
+    "resources": {
+        "stylaPluginSettingsTitle": "Настройки плагина Styla",
+        "stylaSlotIdLabel": "Идентификатор слота в Styla",
+        "stylaSlotIdHelpText": "Слот для модулей из Styla."
+    }
+}

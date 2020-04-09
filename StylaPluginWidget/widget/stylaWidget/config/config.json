@@ -1,0 +1,15 @@
+﻿{
+    "widgetDescriptorName": "StylaPluginWidget",
+    "titleResourceId": "stylaPluginSettingsTitle",
+    "descriptionResourceId": "stylaPluginDescription",
+    "properties": [
+        {
+            "id": "stylaSlotId",
+            "type": "stringType",
+            "helpTextResourceId": "stylaSlotIdHelpText",
+            "labelResourceId": "stylaSlotIdLabel",
+            "defaultValue": "",
+            "required": false
+        }
+    ]
+}

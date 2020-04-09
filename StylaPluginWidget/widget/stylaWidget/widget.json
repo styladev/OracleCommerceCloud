@@ -1,0 +1,6 @@
+{
+    "name": "StylaPluginWidget",
+    "javascript": "StylaPluginWidget",
+    "availableToAllPages": true,
+    "jsEditable": true
+}

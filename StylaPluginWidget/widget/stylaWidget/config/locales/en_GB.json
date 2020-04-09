@@ -1,0 +1,7 @@
+﻿{
+    "resources": {
+        "stylaPluginSettingsTitle": "Styla Plugin Settings",
+        "stylaSlotIdLabel": "Styla Slot ID",
+        "stylaSlotIdHelpText": "The slot for the modules from Styla."
+    }
+}

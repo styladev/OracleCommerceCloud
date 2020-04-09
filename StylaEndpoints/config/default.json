@@ -1,0 +1,5 @@
+{
+  // HMAC Authentication Secret key configuration
+  "keys": {
+  }
+}

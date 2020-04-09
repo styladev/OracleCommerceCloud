@@ -1,0 +1,55 @@
+{
+    "authenticatedUrls": [],
+    "author": "VOQUZ IT Solutions",
+    "config": {
+        "port": "3000"
+    },
+    "dependencies": {
+        "axios": "^0.19.2",
+        "config": "latest",
+        "dateformat": "latest",
+        "https-proxy-agent": "^4.0.0",
+        "nconf": "^0.10.0",
+        "node-json-transform": "^1.0.19"
+    },
+    "description": "Implementations of Styla Endpoints.",
+    "devDependencies": {
+        "body-parser": "latest",
+        "express": "latest",
+        "gulp": "latest",
+        "gulp-jasmine": "latest",
+        "jshint": "latest",
+        "request": "latest",
+        "winston": "latest"
+    },
+    "license": "SEE LICENSE IN LICENSE.TXT",
+    "main": "/app/index.js",
+    "name": "stylaEndpoints",
+    "publicUrls": [
+        "/ccstorex/custom/v1/stylaCategories",
+        "/ccstorex/custom/v1/stylaCategories/:categoryId",
+        "/ccstorex/custom/v1/stylaSearch",
+        "/ccstorex/custom/v1/stylaProductDetail",
+        "/ccstorex/custom/v1/helloStyla"
+    ],
+    "scripts": {
+        "lint": "jshint ./app || rem",
+        "oldtest": "mocha --timeout 10000",
+        "start": "node index.js",
+        "test": "gulp test",
+        "updateurls": "python ../python/update_occs_extension_urls.py -f package.json -p ./app/routes"
+    },
+    "translations": [
+        {
+            "description": "Implementations of Styla Endpoints.",
+            "language": "en_US",
+            "name": "Oracle Commerce Cloud Server Extension"
+        },
+        {
+            "description": "Implementación de los puntos finales de Styla.",
+            "language": "es_ES",
+            "name": "Extension de Oracle Commerce Cloud"
+        }
+    ],
+    "version": "0.0.1"
+}
